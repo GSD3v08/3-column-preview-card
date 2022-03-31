@@ -1,0 +1,117 @@
+:root{
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --light-gray: hsl(0, 0%, 95%);
+}
+*{
+    box-sizing: border-box;
+}
+/* Mobile-First */
+body{
+
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    
+    background-color: var(--light-gray);
+    color: var(--light-gray);
+    
+}
+
+.cards{
+    width: 90%;
+    overflow: hidden;
+    margin: 60px auto;
+
+    border-radius: 10px;
+}
+
+.card{
+    padding: 40px 50px;
+}
+
+.bg-sedan
+{
+    background-color: var(--bright-orange);
+}
+
+.bg-suv{
+    background-color: var(--dark-cyan);
+}
+
+.bg-luxury{
+    background-color: var(--very-dark-cyan);
+}
+
+.paragraph{
+    line-height: 25px;
+    color: var(--transparent-white);
+    margin-bottom: 1.5em;
+}
+
+.title{
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.button{
+    display: inline-block;
+    padding: 1em 2em;
+    margin-bottom: 10px;
+    text-decoration: none;
+
+    background-color: var(--light-gray);
+    color: var(--transparent-white);
+    border-radius: 40px;
+}
+
+.color-button-sedan{
+    color: var(--bright-orange);
+}
+
+.color-button-suv{
+    color: var(--dark-cyan);
+}
+
+.color-button-luxury{
+    color: var(--very-dark-cyan);
+}
+
+.button:hover{
+    background-color: transparent;
+    color: var(--light-gray);
+    border: 2px solid var(--transparent-white);
+}
+
+/* Desktop-workflow */
+@media (min-width: 1200px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .cards{
+        display: flex;
+        flex-wrap: nowrap;
+        width: 64%;
+    }
+    .card{
+        position: relative;
+    }
+    .button{
+        position: absolute;
+        left: 50px;
+        bottom: 40px;
+    }
+
+    .paragraph{
+        margin-bottom: 9em;
+    }
+
+}
