@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/GSD3v08/stats-preview-card](https://github.com/GSD3v08/3-column-preview-card)
+- Live Site URL: [https://gsd3v08.github.io/stats-preview-card/](https://gsd3v08.github.io/3-column-preview-card/)
 
 ## My process
 
